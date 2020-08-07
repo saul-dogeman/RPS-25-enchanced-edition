@@ -1,0 +1,152 @@
+{
+    "rock": {
+        "defeats": ["scissors", "sun", "fire", "axe", "snake", "monkey",
+                    "woman", "man", "tree", "cockroach", "wolf", "sponge"],
+        "defeated_by": ["paper", "gun", "dynamite", "nuke", "lightning",
+                        "devil", "dragon", "alien", "water", "bowl", "air", "moon"]
+    },
+    "paper": {
+        "defeats": ["rock", "moon", "air", "bowl", " water", "alien", "dragon",
+                    "devil", "lightning", "nuke", "dynamite", "gun"],
+        "defeated_by": ["scissors", "sun", "fire", "axe", "snake", "monkey",
+                        "woman", "man", "tree", "wolf", "sponge", "water"]
+    },
+    "scissors": {
+        "defeats": ["paper", "axe", "snake", "monkey", "man", "woman",
+                    "tree", "cockroach", "wolf", "sponge", "moon", "air"],
+        "defeated_by": ["rock", "sun", "fire", "bowl", "water", "alien",
+                        "dragon", "devil", "lightning", "nuke", "dynamite", "gun"]
+    },
+    "gun": {
+        "defeats": ["rock", "sun", "fire", "scissors", "axe", "snake",
+                    "monkey", "woman", "man", "tree", "cockroach", "wolf"],
+        "defeated_by": ["dynamite", "nuke", "lightning", "devil", "dragon",
+                        "alien", "water", "bowl", "air", "moon", "paper", "sponge"]
+    },
+    "dynamite": {
+        "defeats": ["gun", "rock", "sun", "fire", "scissors", "axe", "snake",
+                    "monkey", "woman", "man", "tree", "cockroach"],
+        "defeated_by": ["nuke", "lightning", "devil", "dragon", "alien",
+                        "water", "bowl", "air", "moon", "paper", "sponge", "wolf"]
+    },
+    "nuke": {
+        "defeats": ["dynamite", "gun", "rock", "sun", "fire", "scissors",
+                    "snake", "axe", "monkey", "woman", "man", "tree"],
+        "defeated_by": ["lightning", "devil", "dragon", "alien", "water",
+                        "bowl", "air", "moon", "paper", "sponge", "wolf", "cockroach"]
+    },
+    "lightning": {
+        "defeats": ["nuke", "dynamite", "gun", "rock", "sun", "fire",
+                    "scissors", "axe", "snake", "monkey", "woman", "man"],
+        "defeated_by": ["devil", "dragon", "alien", "water", "bowl", "air",
+                        "moon", "paper", "sponge", "wolf", "cockroach", "tree"]
+    },
+    "devil": {
+        "defeats": ["lighting", "nuke", "dynamite", "gun", "rock", "sun",
+                    "fire", "scissors", "axe", "snake", "monkey", "woman"],
+        "defeated_by": ["dragon", "alien", "water", "bowl", "air", "moon",
+                        "paper", "sponge", "wolf", "cockroach", "tree", "man"]
+    },
+    "dragon": {
+        "defeats": ["devil", "lighting", "nuke", "dynamite", "gun", "rock",
+                    "sun", "fire", "scissors", "axe", "snake", "monkey"],
+        "defeated_by": ["alien", "water", "bowl", "air", "moon", "paper",
+                        "sponge", "wolf", "cockroach", "tree", "man", "woman"]
+    },
+    "alien": {
+        "defeats": ["dragon", "devil", "lighting", "nuke", "dynamite",
+                    "gun", "rock", "sun", "fire", "scissors", "axe", "snake"],
+        "defeated_by": ["water", "bowl", "air", "moon", "paper", "sponge",
+                        "wolf", "cockroach", "tree", "man", "woman", "monkey"]
+    },
+    "water": {
+        "defeats": ["alien", "dragon", "devil", "lighting", "nuke",
+                    "dynamite", "gun", "rock", "sun", "fire", "scissors", "axe"],
+        "defeated_by": ["bowl", "air", "moon", "paper", "sponge", "wolf",
+                        "cockroach", "tree", "man", "woman", "monkey", "snake"]
+    },
+    "bowl": {
+        "defeats": ["water", "alien", "dragon", "devil", "lighting", "nuke",
+                    "dynamite", "gun", "rock", "sun", "fire", "scissors"],
+        "defeated_by": ["air", "moon", "paper", "sponge", "wolf", "cockroach",
+                        "tree", "man", "woman", "monkey", "snake", "axe"]
+    },
+    "air": {
+        "defeats": ["bowl", "water", "alien", "dragon", "devil", "lighting",
+                    "nuke", "dynamite", "gun", "rock", "sun", "fire"],
+        "defeated_by": ["moon", "paper", "sponge", "wolf", "cockroach",
+                        "tree", "man", "woman", "monkey", "snake", "axe", "scissors"]
+    },
+    "moon": {
+        "defeats": ["air", "bowl", "water", "alien", "dragon", "devil",
+                    "lighting", "nuke", "dynamite", "gun", "rock", "sun"],
+        "defeated_by": ["paper", "sponge", "wolf", "cockroach", "tree",
+                        "man", "woman", "monkey", "snake", "axe", "scissors", "fire"]
+    },
+    "sponge": {
+        "defeats": ["paper", "moon", "air", "bowl", "water", "alien",
+                    "dragon", "devil", "lighting", "nuke", "dynamite", "gun"],
+        "defeated_by": ["wolf", "cockroach", "tree", "man", "woman", "monkey",
+                        "snake", "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "wolf": {
+        "defeats": ["sponge", "paper", "moon", "air", "bowl", "water",
+                    "alien", "dragon", "devil", "lighting", "nuke", "dynamite"],
+        "defeated_by": ["cockroach", "tree", "man", "woman", "monkey",
+                        "snake", "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "cockroach": {
+        "defeats": ["wolf", "sponge", "paper", "moon", "air", "bowl",
+                    "water", "alien", "dragon", "devil", "lighting", "nuke"],
+        "defeated_by": ["tree", "man", "woman", "monkey", "snake",
+                        "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "tree": {
+        "defeats": ["cockroach", "wolf", "sponge", "paper", "moon",
+                    "air", "bowl", "water", "alien", "dragon", "devil", "lighting"],
+        "defeated_by": ["gun", "dynamite", "nuke", "man", "woman",
+                        "monkey", "snake", "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "man": {
+        "defeats": ["tree", "cockroach", "wolf", "sponge", "paper", "moon",
+                    "air", "bowl", "water", "alien", "dragon", "devil"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "woman",
+                        "monkey", "snake", "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "woman": {
+        "defeats": ["man", "tree", "cockroach", "wolf", "sponge", "paper", "moon",
+                    "air", "bowl", "water", "alien", "dragon"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "devil", "monkey",
+                        "snake", "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "monkey": {
+        "defeats": ["woman", "man", "tree", "cockroach", "wolf", "sponge",
+                    "paper", "moon", "air", "bowl", "water", "alien"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "devil", "dragon",
+                        "snake, axe, scissors, fire, sun, rock"]
+    },
+    "snake": {
+        "defeats": ["monkey", "woman", "man", "tree", "cockroach",
+                    "wolf", "sponge", "paper", "moon", "air", "bowl", "water"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "devil",
+                        "dragon", "alien", "axe", "scissors", "fire", "sun", "rock"]
+    },
+    "axe": {
+        "defeats": ["snake", "monkey", "woman", "man", "tree", "cockroach",
+                    "wolf", "sponge", "paper", "moon", "air", "bowl"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "devil",
+                        "dragon", "alien", "water", "scissors", "fire", "sun", "rock"]
+    },
+    "fire": {
+        "defeats": ["scissors", "axe", "snake", "monkey", "woman", "man",
+                    "tree", "cockroach", "wolf", "sponge", "paper", "moon"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "devil",
+                        "dragon", "alien", "water", "bowl", "air", "sun", "rock"]
+    },
+    "sun": {
+        "defeats": ["fire", "scissors", "axe", "snake", "monkey", "woman",
+                    "man", "tree", "cockroach", "wolf", "sponge", "paper"],
+        "defeated_by": ["gun", "dynamite", "nuke", "lighting", "devil",
+                        "dragon", "alien", "water", "bowl", "air", "moon", "rock"]
+    }
+}
